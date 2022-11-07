@@ -1,0 +1,53 @@
+Qual o cérebro do computador?
+CPU
+
+Qual a sigla para um circuito digital que utiliza portas lógicas?
+ULA
+
+Qual o nome dado as memórias armazenadas dentro da CPU?
+REGISTRADORES
+
+Segunda memória mais acessada.
+RAM
+
+Memória utilizada somente para leitura.
+ROM
+
+Memória apagável utilizada somente para leitura.
+EPROM
+
+Memória que salva informações nela.
+FLASH
+
+Memória utilizada para armazenar grandes quantidades de dados.
+MEMÓRIAS DE MASSA
+
+Metodo para acesso direto na memória.
+DMA
+
+Mecanismo que permite o acesso da CPU a periféricos externos.
+CS/CHIP-SELECT
+
+Carrega data do processador para outros componentes. Unidirecional
+ADRESS BUS
+
+Carrega data do processador para outros componentes. Bidirecional
+DATA BUS
+
+Processador de quinta geração da intel.
+I5
+
+Processador de sétima geração da intel.
+I7
+
+Tecnologia que utiliza dois núcleos dentro do processador:
+DUAL CORE
+
+Tecnologia que utiliza quatro núcleos dentro do processador:
+QUAD CORE
+
+Linha de encadeamento de execução:
+THREADS
+
+Memória volátil utilizada para aumentar a velocidade de processamento do CPU
+CACHE
