@@ -11,713 +11,732 @@
 </head>
 
 <body>
-    <h1>Palavras-Cruzadas</h1>
-    <div class="container">
+    <div class="navbar">
+        <h1>Palavras-Cruzadas</h1>
+    </div>
+    <div class="tudo">
+        <div class="imagem">
+            <img src="esquemaArquitetura.png" alt="">
+        </div>
+        <div class="container">
 
-        <div class="container2">
-            <div class="game">
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 2 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT1" maxlength="1" onchange="databus()" placeholder="12">
+            <div class="container2">
+                <div class="game">
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 2 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT1" maxlength="1" onchange="databus()" placeholder="12">
+                    </div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 3 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT2" maxlength="1" onchange="databus(), adressbus()"
+                            placeholder="11"></div>
+                    <div class="quadrado"><input id="squareINPUT3" maxlength="1" onchange="adressbus()"></div>
+                    <div class="quadrado"><input id="squareINPUT4" maxlength="1" onchange="adressbus()"></div>
+                    <div class="quadrado"><input id="squareINPUT5" maxlength="1" onchange="adressbus()"></div>
+                    <div class="quadrado"><input id="squareINPUT6" maxlength="1" onchange="adressbus()"></div>
+                    <div class="quadrado"><input id="squareINPUT7" maxlength="1" onchange="adressbus()"></div>
+                    <div class="quadrado"><input id="squareINPUT8" maxlength="1" onchange="adressbus()"
+                            placeholder="--">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT9" maxlength="1" onchange="adressbus()"></div>
+                    <div class="quadrado"><input id="squareINPUT10" maxlength="1" onchange="adressbus()"></div>
+                    <div class="quadrado"><input id="squareINPUT11" maxlength="1" onchange="adressbus()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 4 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT12" maxlength="1" onchange="databus()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 5 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT13" maxlength="1" onchange="databus()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT14" maxlength="1" onchange="dualcore()"
+                            placeholder="15">
+                    </div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 6 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT15" maxlength="0" onchange="databus()" placeholder="--">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT16" maxlength="1" onchange="cache(),cpu() "
+                            placeholder="1">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT17" maxlength="1" onchange="cpu()" placeholder="2">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT18" maxlength="1" onchange="cpu(), dualcore()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 7 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT19" maxlength="1" onchange="databus()"></div>
+                    <div class="quadrado"><input id="squareINPUT20" maxlength="1" onchange="cache()" placeholder="16">
+                    </div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT21" maxlength="1" onchange="dualcore()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT22" maxlength="1" onchange="registradores()"
+                            placeholder="3"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 8 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT23" maxlength="1" onchange="databus(),ucsl()"></div>
+                    <div class="quadrado"><input id="squareINPUT24" maxlength="1" onchange="cache(),ucsl()"
+                            placeholder="10"></div>
+                    <div class="quadrado"><input id="squareINPUT25" maxlength="1" onchange="ucsl()"></div>
+                    <div class="quadrado"><input id="squareINPUT26" maxlength="1" onchange="ucsl(), dualcore()"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT27" maxlength="1" onchange="epronom()" placeholder="6">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT28" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 9 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT29" maxlength="1" onchange="flash()" placeholder="7">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT30" maxlength="1" onchange="flash()"></div>
+                    <div class="quadrado"><input id="squareINPUT31" maxlength="1" onchange="flash()"></div>
+                    <div class="quadrado"><input id="squareINPUT32" maxlength="1" onchange="databus(),flash()"></div>
+                    <div class="quadrado"><input id="squareINPUT33" maxlength="1" onchange="flash(),cache()"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT34" maxlength="1" placeholder="--"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT35" maxlength="1" onchange="epronom()"></div>
+                    <div class="quadrado"><input id="squareINPUT36" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 10 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT37" maxlength="1" onchange="cache()"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT38" maxlength="1" onchange="dualcore(), cori7()"></div>
+                    <div class="quadrado"><input id="squareINPUT39" maxlength="1" onchange="ulamd(), cori7()"></div>
+                    <div class="quadrado"><input id="squareINPUT40" maxlength="1" onchange="epronom(), cori7()"
+                            placeholder="5"></div>
+                    <div class="quadrado"><input id="squareINPUT41" maxlength="1" onchange="registradores(), cori7()"
+                            placeholder="14"></div>
+                    <div class="quadrado"><input id="squareINPUT42" maxlength="1" onchange="cori7()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 11 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT43" maxlength="1" onchange="dualcore()"></div>
+                    <div class="quadrado"><input id="squareINPUT44" maxlength="1" onchange="ulamd()"></div>
+                    <div class="quadrado"><input id="squareINPUT45" maxlength="1" onchange="epronom()"></div>
+                    <div class="quadrado"><input id="squareINPUT46" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 12 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT47" maxlength="1" onchange="dualcore()" placeholder="4">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT48" maxlength="1" onchange="ulamd()"></div>
+                    <div class="quadrado"><input id="squareINPUT49" maxlength="1" onchange="epronom()"></div>
+                    <div class="quadrado"><input id="squareINPUT50" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 13 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT51" maxlength="1" onchange="memoriademassa()"
+                            placeholder="8"></div>
+                    <div class="quadrado"><input id="squareINPUT52" maxlength="1"
+                            onchange="dualcore(), memoriademassa()">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT53" maxlength="1" onchange="memoriademassa(), ulamd()">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT54" maxlength="1"
+                            onchange="memoriademassa(), epronom()">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT55" maxlength="1"
+                            onchange="memoriademassa(), registradores()"></div>
+                    <div class="quadrado"><input id="squareINPUT56" maxlength="1" onchange="memoriademassa()"
+                            placeholder="13"></div>
+                    <div class="quadrado"><input id="squareINPUT57" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="quadrado"><input id="squareINPUT58" maxlength="1" placeholder="--"></div>
+                    <div class="quadrado"><input id="squareINPUT59" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="quadrado"><input id="squareINPUT60" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="quadrado"><input id="squareINPUT61" maxlength="1" placeholder="--"></div>
+                    <div class="quadrado"><input id="squareINPUT62" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="quadrado"><input id="squareINPUT63" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="quadrado"><input id="squareINPUT64" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="quadrado"><input id="squareINPUT65" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="quadrado"><input id="squareINPUT66" maxlength="1" onchange="memoriademassa()"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 14 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT67" maxlength="1" onchange="dma5(), ulamd()"
+                            placeholder="9"></div>
+                    <div class="quadrado"><input id="squareINPUT68" maxlength="1" onchange="epronom(),dma5()"></div>
+                    <div class="quadrado"><input id="squareINPUT69" maxlength="1" onchange="registradores(),dma5()">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUT70" maxlength="1" onchange="dma5()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 15 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT71" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 16 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUTq" maxlength="1" onchange="quadcore()" placeholder="17">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUTu" maxlength="1" onchange="quadcore()"></div>
+                    <div class="quadrado"><input id="squareINPUTa" maxlength="1" onchange="quadcore()"></div>
+                    <div class="quadrado"><input id="squareINPUTd" maxlength="1" onchange="quadcore()"></div>
+                    <div class="quadrado"><input id="squareINPUT76" maxlength="0" onchange="quadcore()"
+                            placeholder="--">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUTc" maxlength="1" onchange="quadcore()"></div>
+                    <div class="quadrado"><input id="squareINPUT72" maxlength="1" onchange="registradores(),quadcore()">
+                    </div>
+                    <div class="quadrado"><input id="squareINPUTr" maxlength="1" onchange="quadcore()"></div>
+                    <div class="quadrado"><input id="squareINPUTe" maxlength="1" onchange="quadcore()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 17 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT73" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 18 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT74" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 19 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="quadrado"><input id="squareINPUT75" maxlength="1" onchange="registradores()"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 20 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 21 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 22 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 23 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 24 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <!-- linha 25 -->
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
+                    <div class="bloco"></div>
                 </div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 3 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT2" maxlength="1" onchange="databus(), adressbus()"
-                        placeholder="11"></div>
-                <div class="quadrado"><input id="squareINPUT3" maxlength="1" onchange="adressbus()"></div>
-                <div class="quadrado"><input id="squareINPUT4" maxlength="1" onchange="adressbus()"></div>
-                <div class="quadrado"><input id="squareINPUT5" maxlength="1" onchange="adressbus()"></div>
-                <div class="quadrado"><input id="squareINPUT6" maxlength="1" onchange="adressbus()"></div>
-                <div class="quadrado"><input id="squareINPUT7" maxlength="1" onchange="adressbus()"></div>
-                <div class="quadrado"><input id="squareINPUT8" maxlength="1" onchange="adressbus()" placeholder="--">
-                </div>
-                <div class="quadrado"><input id="squareINPUT9" maxlength="1" onchange="adressbus()"></div>
-                <div class="quadrado"><input id="squareINPUT10" maxlength="1" onchange="adressbus()"></div>
-                <div class="quadrado"><input id="squareINPUT11" maxlength="1" onchange="adressbus()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 4 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT12" maxlength="1" onchange="databus()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 5 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT13" maxlength="1" onchange="databus()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT14" maxlength="1" onchange="dualcore()" placeholder="15">
-                </div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 6 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT15" maxlength="0" onchange="databus()" placeholder="--">
-                </div>
-                <div class="quadrado"><input id="squareINPUT16" maxlength="1" onchange="cache(),cpu() " placeholder="1">
-                </div>
-                <div class="quadrado"><input id="squareINPUT17" maxlength="1" onchange="cpu()" placeholder="2"></div>
-                <div class="quadrado"><input id="squareINPUT18" maxlength="1" onchange="cpu(), dualcore()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 7 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT19" maxlength="1" onchange="databus()"></div>
-                <div class="quadrado"><input id="squareINPUT20" maxlength="1" onchange="cache()" placeholder="16"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT21" maxlength="1" onchange="dualcore()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT22" maxlength="1" onchange="registradores()"
-                        placeholder="3"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 8 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT23" maxlength="1" onchange="databus(),ucsl()"></div>
-                <div class="quadrado"><input id="squareINPUT24" maxlength="1" onchange="cache(),ucsl()"
-                        placeholder="10"></div>
-                <div class="quadrado"><input id="squareINPUT25" maxlength="1" onchange="ucsl()"></div>
-                <div class="quadrado"><input id="squareINPUT26" maxlength="1" onchange="ucsl(), dualcore()"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT27" maxlength="1" onchange="epronom()" placeholder="6">
-                </div>
-                <div class="quadrado"><input id="squareINPUT28" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 9 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT29" maxlength="1" onchange="flash()" placeholder="7"></div>
-                <div class="quadrado"><input id="squareINPUT30" maxlength="1" onchange="flash()"></div>
-                <div class="quadrado"><input id="squareINPUT31" maxlength="1" onchange="flash()"></div>
-                <div class="quadrado"><input id="squareINPUT32" maxlength="1" onchange="databus(),flash()"></div>
-                <div class="quadrado"><input id="squareINPUT33" maxlength="1" onchange="flash(),cache()"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT34" maxlength="1" placeholder="--"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT35" maxlength="1" onchange="epronom()"></div>
-                <div class="quadrado"><input id="squareINPUT36" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 10 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT37" maxlength="1" onchange="cache()"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT38" maxlength="1" onchange="dualcore(), cori7()"></div>
-                <div class="quadrado"><input id="squareINPUT39" maxlength="1" onchange="ulamd(), cori7()"></div>
-                <div class="quadrado"><input id="squareINPUT40" maxlength="1" onchange="epronom(), cori7()"
-                        placeholder="5"></div>
-                <div class="quadrado"><input id="squareINPUT41" maxlength="1" onchange="registradores(), cori7()"
-                        placeholder="14"></div>
-                <div class="quadrado"><input id="squareINPUT42" maxlength="1" onchange="cori7()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 11 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT43" maxlength="1" onchange="dualcore()"></div>
-                <div class="quadrado"><input id="squareINPUT44" maxlength="1" onchange="ulamd()"></div>
-                <div class="quadrado"><input id="squareINPUT45" maxlength="1" onchange="epronom()"></div>
-                <div class="quadrado"><input id="squareINPUT46" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 12 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT47" maxlength="1" onchange="dualcore()" placeholder="4">
-                </div>
-                <div class="quadrado"><input id="squareINPUT48" maxlength="1" onchange="ulamd()"></div>
-                <div class="quadrado"><input id="squareINPUT49" maxlength="1" onchange="epronom()"></div>
-                <div class="quadrado"><input id="squareINPUT50" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 13 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT51" maxlength="1" onchange="memoriademassa()"
-                        placeholder="8"></div>
-                <div class="quadrado"><input id="squareINPUT52" maxlength="1" onchange="dualcore(), memoriademassa()">
-                </div>
-                <div class="quadrado"><input id="squareINPUT53" maxlength="1" onchange="memoriademassa(), ulamd()">
-                </div>
-                <div class="quadrado"><input id="squareINPUT54" maxlength="1" onchange="memoriademassa(), epronom()">
-                </div>
-                <div class="quadrado"><input id="squareINPUT55" maxlength="1"
-                        onchange="memoriademassa(), registradores()"></div>
-                <div class="quadrado"><input id="squareINPUT56" maxlength="1" onchange="memoriademassa()"
-                        placeholder="13"></div>
-                <div class="quadrado"><input id="squareINPUT57" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="quadrado"><input id="squareINPUT58" maxlength="1" placeholder="--"></div>
-                <div class="quadrado"><input id="squareINPUT59" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="quadrado"><input id="squareINPUT60" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="quadrado"><input id="squareINPUT61" maxlength="1" placeholder="--"></div>
-                <div class="quadrado"><input id="squareINPUT62" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="quadrado"><input id="squareINPUT63" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="quadrado"><input id="squareINPUT64" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="quadrado"><input id="squareINPUT65" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="quadrado"><input id="squareINPUT66" maxlength="1" onchange="memoriademassa()"></div>
-                <div class="bloco"></div>
-                <!-- linha 14 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT67" maxlength="1" onchange="dma5(), ulamd()"
-                        placeholder="9"></div>
-                <div class="quadrado"><input id="squareINPUT68" maxlength="1" onchange="epronom(),dma5()"></div>
-                <div class="quadrado"><input id="squareINPUT69" maxlength="1" onchange="registradores(),dma5()"></div>
-                <div class="quadrado"><input id="squareINPUT70" maxlength="1" onchange="dma5()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 15 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT71" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 16 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUTq" maxlength="1" onchange="quadcore()"placeholder="17"></div>
-                <div class="quadrado"><input id="squareINPUTu" maxlength="1" onchange="quadcore()"></div>
-                <div class="quadrado"><input id="squareINPUTa" maxlength="1" onchange="quadcore()"></div>
-                <div class="quadrado"><input id="squareINPUTd" maxlength="1" onchange="quadcore()"></div>
-                <div class="quadrado"><input id="squareINPUT76" maxlength="0" onchange="quadcore()" placeholder="--">
-                </div>
-                <div class="quadrado"><input id="squareINPUTc" maxlength="1" onchange="quadcore()"></div>
-                <div class="quadrado"><input id="squareINPUT72" maxlength="1" onchange="registradores(),quadcore()">
-                </div>
-                <div class="quadrado"><input id="squareINPUTr" maxlength="1" onchange="quadcore()"></div>
-                <div class="quadrado"><input id="squareINPUTe" maxlength="1" onchange="quadcore()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 17 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT73" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 18 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT74" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 19 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="quadrado"><input id="squareINPUT75" maxlength="1" onchange="registradores()"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 20 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 21 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 22 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 23 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 24 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <!-- linha 25 -->
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
-                <div class="bloco"></div>
+
             </div>
 
-        </div>
+            <div class="horizontal">
+                <h1> Horizontal</h1>
+                1. Qual o cérebro do computador? <br><br>
 
-        <div class="horizontal">
-            <h1> Horizontal</h1>
-            1. Qual o cérebro do computador? <br><br>
-
-            4. Segunda memória mais acessada.<br><br>
-            7. Memória que salva informações nela.<br><br>
-            8. Memória utilizada para armazenar grandes quantidades de dados.<br><br>
-            9. Metodo para acesso direto na memória.<br><br>
-            10. Mecanismo que permite o acesso da CPU a periféricos externos.<br><br>
-            11. Carrega data do processador para outros componentes. Unidirecional<br><br>
-            14. Processador de sétima geração da intel.<br><br>
+                4. Segunda memória mais acessada.<br><br>
+                7. Memória que salva informações nela.<br><br>
+                8. Memória utilizada para armazenar grandes quantidades de dados.<br><br>
+                9. Metodo para acesso direto na memória.<br><br>
+                10. Mecanismo que permite o acesso da CPU a periféricos externos.<br><br>
+                11. Carrega data do processador para outros componentes. Unidirecional<br><br>
+                14. Processador de sétima geração da intel.<br><br>
+            </div>
+            <div class="vertical">
+                <h1> Vertical</h1>
+                2. Qual a sigla para um circuito digital que utiliza portas lógicas?<br><br>
+                3. Qual o nome dado as memórias armazenadas dentro da CPU?<br><br>
+                5. Memória utilizada somente para leitura.<br><br>
+                6. Memória apagável utilizada somente para leitura.<br><br>
+                12. Carrega data do processador para outros componentes. Bidirecional<br><br>
+                13. Processador de quinta geração da intel.<br><br>
+                15. Tecnologia que utiliza dois núcleos dentro do processador.<br><br>
+                16. Memória volátil utilizada para aumentar a velocidade de processamento do CPU.<br><br>
+                17. Tecnologia que utiliza quatro núcleos dentro do processador.
+            </div>
         </div>
-        <div class="vertical">
-            <h1> Vertical</h1>
-            2. Qual a sigla para um circuito digital que utiliza portas lógicas?<br><br>
-            3. Qual o nome dado as memórias armazenadas dentro da CPU?<br><br>
-            5. Memória utilizada somente para leitura.<br><br>
-            6. Memória apagável utilizada somente para leitura.<br><br>
-            12. Carrega data do processador para outros componentes. Bidirecional<br><br>
-            13. Processador de quinta geração da intel.<br><br>
-            15. Tecnologia que utiliza dois núcleos dentro do processador.<br><br>
-            16. Memória volátil utilizada para aumentar a velocidade de processamento do CPU.<br><br>
-            17. Tecnologia que utiliza quatro núcleos dentro do processador.
-        </div>
+        <div class="gaba">
+        <button id="MyButton">GABARITO!</button></div>
+        <br>
+        <l id="MyHeading"> </l>
     </div>
-    <button id="MyButton">GABARITO!</button>
-    <br>
-    <l id="MyHeading"> </l>
 </body>
 
 </html>
@@ -729,7 +748,7 @@
         1.CPU
         2.ULA
         3.REGISTRADORES
-      4.RAM
+        4.RAM
         5.ROM
         6.EPROM
         7.FLASH
