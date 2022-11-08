@@ -11,8 +11,10 @@
 </head>
 
 <body>
+    <h1>Palavras-Cruzadas</h1>
     <div class="container">
-        <h1>Palavras-Cruzadas</h1>
+        
+        <div class="container2">
         <div class="game">
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -46,7 +48,7 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT1" maxlength="1" onchange="databus()"></div>
+            <div class="quadrado"><input id="squareINPUT1" maxlength="1" onchange="databus()" placeholder="12"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -72,7 +74,7 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT2" maxlength="1" onchange="databus(), adressbus()"></div>
+            <div class="quadrado"><input id="squareINPUT2" maxlength="1" onchange="databus(), adressbus()" placeholder="11"></div>
             <div class="quadrado"><input id="squareINPUT3" maxlength="1" onchange="adressbus()"></div>
             <div class="quadrado"><input id="squareINPUT4" maxlength="1" onchange="adressbus()"></div>
             <div class="quadrado"><input id="squareINPUT5" maxlength="1" onchange="adressbus()"></div>
@@ -127,7 +129,7 @@
             <div class="quadrado"><input id="squareINPUT13" maxlength="1" onchange="databus()"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT14" maxlength="1" onchange="dualcore()"></div>
+            <div class="quadrado"><input id="squareINPUT14" maxlength="1" onchange="dualcore()"placeholder="15"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -150,9 +152,9 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT15" maxlength="1" onchange="databus()" placeholder="--"></div>
-            <div class="quadrado"><input id="squareINPUT16" maxlength="1" onchange="cache(),cpu() "></div>
-            <div class="quadrado"><input id="squareINPUT17" maxlength="1" onchange="cpu()"></div>
+            <div class="quadrado"><input id="squareINPUT15" maxlength="0" onchange="databus()" placeholder="--"></div>
+            <div class="quadrado"><input id="squareINPUT16" maxlength="1" onchange="cache(),cpu() "placeholder="1"></div>
+            <div class="quadrado"><input id="squareINPUT17" maxlength="1" onchange="cpu()"placeholder="2"></div>
             <div class="quadrado"><input id="squareINPUT18" maxlength="1" onchange="cpu(), dualcore()"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -177,12 +179,12 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="quadrado"><input id="squareINPUT19" maxlength="1" onchange="databus()"></div>
-            <div class="quadrado"><input id="squareINPUT20" maxlength="1" onchange="cache()"></div>
+            <div class="quadrado"><input id="squareINPUT20" maxlength="1" onchange="cache()"placeholder="16"></div>
             <div class="bloco"></div>
             <div class="quadrado"><input id="squareINPUT21" maxlength="1" onchange="dualcore()"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT22" maxlength="1" onchange="registradores()"></div>
+            <div class="quadrado"><input id="squareINPUT22" maxlength="1" onchange="registradores()" placeholder="3"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -203,11 +205,11 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="quadrado"><input id="squareINPUT23" maxlength="1" onchange="databus(),ucsl()"></div>
-            <div class="quadrado"><input id="squareINPUT24" maxlength="1" onchange="cache(),ucsl()"></div>
+            <div class="quadrado"><input id="squareINPUT24" maxlength="1" onchange="cache(),ucsl()"placeholder="10"></div>
             <div class="quadrado"><input id="squareINPUT25" maxlength="1" onchange="ucsl()"></div>
             <div class="quadrado"><input id="squareINPUT26" maxlength="1" onchange="ucsl(), dualcore()"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT27" maxlength="1" onchange="epronom()"></div>
+            <div class="quadrado"><input id="squareINPUT27" maxlength="1" onchange="epronom()" placeholder="6"></div>
             <div class="quadrado"><input id="squareINPUT28" maxlength="1" onchange="registradores()"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -225,7 +227,7 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT29" maxlength="1" onchange="flash()"></div>
+            <div class="quadrado"><input id="squareINPUT29" maxlength="1" onchange="flash()" placeholder="7"></div>
             <div class="quadrado"><input id="squareINPUT30" maxlength="1" onchange="flash()"></div>
             <div class="quadrado"><input id="squareINPUT31" maxlength="1" onchange="flash()"></div>
             <div class="quadrado"><input id="squareINPUT32" maxlength="1" onchange="databus(),flash()"></div>
@@ -259,8 +261,8 @@
             <div class="bloco"></div>
             <div class="quadrado"><input id="squareINPUT38" maxlength="1" onchange="dualcore(), cori7()"></div>
             <div class="quadrado"><input id="squareINPUT39" maxlength="1" onchange="ulamd(), cori7()"></div>
-            <div class="quadrado"><input id="squareINPUT40" maxlength="1" onchange="epronom(), cori7()"></div>
-            <div class="quadrado"><input id="squareINPUT41" maxlength="1" onchange="registradores(), cori7()"></div>
+            <div class="quadrado"><input id="squareINPUT40" maxlength="1" onchange="epronom(), cori7()" placeholder="5"></div>
+            <div class="quadrado"><input id="squareINPUT41" maxlength="1" onchange="registradores(), cori7()" placeholder="14"></div>
             <div class="quadrado"><input id="squareINPUT42" maxlength="1" onchange="cori7()"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -309,7 +311,7 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT47" maxlength="1" onchange="dualcore()"></div>
+            <div class="quadrado"><input id="squareINPUT47" maxlength="1" onchange="dualcore()" placeholder="4"></div>
             <div class="quadrado"><input id="squareINPUT48" maxlength="1" onchange="ulamd()"></div>
             <div class="quadrado"><input id="squareINPUT49" maxlength="1" onchange="epronom()"></div>
             <div class="quadrado"><input id="squareINPUT50" maxlength="1" onchange="registradores()"></div>
@@ -334,12 +336,12 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT51" maxlength="1" onchange="memoriademassa()"></div>
+            <div class="quadrado"><input id="squareINPUT51" maxlength="1" onchange="memoriademassa()" placeholder="8"></div>
             <div class="quadrado"><input id="squareINPUT52" maxlength="1" onchange="dualcore(), memoriademassa()"></div>
             <div class="quadrado"><input id="squareINPUT53" maxlength="1" onchange="memoriademassa(), ulamd()"></div>
             <div class="quadrado"><input id="squareINPUT54" maxlength="1" onchange="memoriademassa(), epronom()"></div>
             <div class="quadrado"><input id="squareINPUT55" maxlength="1" onchange="memoriademassa(), registradores()"></div>
-            <div class="quadrado"><input id="squareINPUT56" maxlength="1" onchange="memoriademassa()"></div>
+            <div class="quadrado"><input id="squareINPUT56" maxlength="1" onchange="memoriademassa()"placeholder="13"></div>
             <div class="quadrado"><input id="squareINPUT57" maxlength="1" onchange="memoriademassa()"></div>
             <div class="quadrado"><input id="squareINPUT58" maxlength="1" placeholder="--"></div>
             <div class="quadrado"><input id="squareINPUT59" maxlength="1" onchange="memoriademassa()"></div>
@@ -362,7 +364,7 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT67" maxlength="1" onchange="dma5(), ulamd()"></div>
+            <div class="quadrado"><input id="squareINPUT67" maxlength="1" onchange="dma5(), ulamd()" placeholder="9"></div>
             <div class="quadrado"><input id="squareINPUT68" maxlength="1" onchange="epronom(),dma5()"></div>
             <div class="quadrado"><input id="squareINPUT69" maxlength="1" onchange="registradores(),dma5()"></div>
             <div class="quadrado"><input id="squareINPUT70" maxlength="1" onchange="dma5()"></div>
@@ -410,15 +412,15 @@
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
-            <div class="bloco"></div>
-            <div class="bloco"></div>
-            <div class="bloco"></div>
-            <div class="bloco"></div>
-            <div class="bloco"></div>
-            <div class="bloco"></div>
-            <div class="quadrado"><input id="squareINPUT72" maxlength="1" onchange="registradores()"></div>
-            <div class="bloco"></div>
-            <div class="bloco"></div>
+            <div class="quadrado"><input id="squareINPUTq" maxlength="1" onchange="quadcore()"></div>
+            <div class="quadrado"><input id="squareINPUTu" maxlength="1" onchange="quadcore()"></div>
+            <div class="quadrado"><input id="squareINPUTa" maxlength="1" onchange="quadcore()"></div>
+            <div class="quadrado"><input id="squareINPUTd" maxlength="1" onchange="quadcore()"></div>
+            <div class="quadrado"><input id="squareINPUT76" maxlength="0" onchange="quadcore()" placeholder="--"></div>
+            <div class="quadrado"><input id="squareINPUTc" maxlength="1" onchange="quadcore()"></div>
+            <div class="quadrado"><input id="squareINPUT72" maxlength="1" onchange="registradores(),quadcore()"></div>
+            <div class="quadrado"><input id="squareINPUTr" maxlength="1" onchange="quadcore()"></div>
+            <div class="quadrado"><input id="squareINPUTe" maxlength="1" onchange="quadcore()"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
             <div class="bloco"></div>
@@ -666,6 +668,30 @@
         </div>
 
     </div>
+
+    <div class="horizontal">
+        <h1> Horizontal</h1>
+        1. Qual o cérebro do computador? <br><br>
+        4. Segunda memória mais acessada.<br><br>
+        7. Memória que salva informações nela.<br><br>
+        8. Memória utilizada para armazenar grandes quantidades de dados.<br><br>
+        9. Metodo para acesso direto na memória.<br><br>
+        10. Mecanismo que permite o acesso da CPU a periféricos externos.<br><br>
+        11. Carrega data do processador para outros componentes. Unidirecional<br><br>
+        14. Processador de sétima geração da intel.<br><br>
+    </div>
+    <div class="vertical">
+        <h1> Vertical</h1>
+        2. Qual a sigla para um circuito digital que utiliza portas lógicas?<br><br>
+        3. Qual o nome dado as memórias armazenadas dentro da CPU?<br><br>
+        5. Memória utilizada somente para leitura.<br><br>
+        6. Memória apagável utilizada somente para leitura.<br><br>
+        12. Carrega data do processador para outros componentes. Bidirecional<br><br>
+        13. Processador de quinta geração da intel.<br><br>
+        15. Tecnologia que utiliza dois núcleos dentro do processador.<br><br>
+        16. Memória volátil utilizada para aumentar a velocidade de processamento do CPU.<br><br>
+    </div>
+</div>
 </body>
 
 </html>
@@ -1076,7 +1102,7 @@ function epronom() {
             squareINPUT40.style.border = "2px solid red";
         } else if(l4 != "o" && l4 != "O") {
             squareINPUT45.style.border = "2px solid red";
-        } else if(l5 != "n" && l5 != "N") {
+        } else if(l5 != "m" && l5 != "M") {
             squareINPUT49.style.border = "2px solid red";
         } else if(l6 != "o" && l6 != "O") {
             squareINPUT54.style.border = "2px solid red";
@@ -1193,7 +1219,49 @@ function epronom() {
         
     }
         
+    function quadcore() {
+        let l1 = squareINPUTq.value;
+        let l2 = squareINPUTu.value;
+        let l3 = squareINPUTa.value;
+        let l4 = squareINPUTd.value;
+        let l5 = squareINPUTc.value;
+        let l6 = squareINPUT72.value;
+        let l7 = squareINPUTr.value;
+        let l8 = squareINPUTe.value;
+        let l9 = squareINPUT76.value;
 
+        let palavra = l1 + l2 + l3 + l4 + l9 + l5 + l6 + l7 + l8
+
+        if(l1 != "q" && l1 != "Q") {
+            squareINPUTq.style.border = "2px solid red";
+        } else if(l2 != "u" && l2 != "U") {
+            squareINPUTu.style.border = "2px solid red";
+        } else if(l3 != "a" && l3 != "A") {
+            squareINPUTa.style.border = "2px solid red";
+        } else if(l4 != "d" && l4 != "D") {
+            squareINPUTd.style.border = "2px solid red";
+        } else if(l5 != "c" && l5 != "C") {
+            squareINPUTc.style.border = "2px solid red";
+        } else if(l6 != "o" && l6 != "O") {
+            squareINPUT72.style.border = "2px solid red";
+        } else if(l7 != "r" && l7 != "R") {
+            squareINPUTr.style.border = "2px solid red";
+        } else if(l8 != "e" && l8 != "E") {
+            squareINPUTe.style.border = "2px solid red";
+        }
+        else {
+            
+            squareINPUTq.style.border = "2px solid green";
+            squareINPUTu.style.border = "2px solid green"; 
+            squareINPUTa.style.border = "2px solid green";
+            squareINPUTd.style.border = "2px solid green";
+            squareINPUTc.style.border = "2px solid green";
+            squareINPUT72.style.border = "2px solid green";
+            squareINPUTr.style.border = "2px solid green"; 
+            squareINPUTe.style.border = "2px solid green";
+            
+        }
+    }
     
 
 </script>
