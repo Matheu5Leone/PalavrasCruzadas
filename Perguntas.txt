@@ -46,4 +46,7 @@ DUAL CORE
 16: Memória volátil utilizada para aumentar a velocidade de processamento do CPU
 CACHE
 
+17: Tecnologia que utiliza quatro núcleos dentro do processador:
+DUAL CORE
+
 
